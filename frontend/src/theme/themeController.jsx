@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function ThemeOption() {
+function ThemeController() {
   const getSystemTheme = () =>
     window.matchMedia("(prefers-color-scheme: dark)").matches
       ? "dark"
@@ -94,4 +94,4 @@ function ThemeOption() {
   );
 }
 
-export default ThemeOption;
+export default ThemeController;
